@@ -4,26 +4,9 @@ A collection of Power Automate flows built for enterprise IT operations. Each fl
 
 ---
 
-## Repository Structure
-
-```
-automate-omni/
-├── it-support-vip-ticket-notifications/
-│   ├── definition.json
-│   ├── VIPTicketNotifications.zip
-│   └── README.md
-└── ...
-```
-
-Each folder represents a standalone flow. More flows will be added over time as the collection grows.
-
----
-
-## Flows
-
-| Folder | Description |
-|---|---|
-| `it-support-vip-ticket-notifications` | Monitors a shared mailbox for Jira VIP incident alerts and posts the ticket link to a Teams channel for immediate L1 response |
+Repository Structure
+Each flow lives in its own folder and is self-contained. Every folder includes the exported package, a definition.json for configuration, and a README with setup instructions specific to that flow.
+This structure will evolve as the collection grows.
 
 ---
 
