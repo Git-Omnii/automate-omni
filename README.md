@@ -4,7 +4,8 @@ A collection of Power Automate flows built for enterprise IT operations. Each fl
 
 ---
 
-Repository Structure
+##Repository Structure
+
 Each flow lives in its own folder and is self-contained. Every folder includes the exported package, a definition.json for configuration, and a README with setup instructions specific to that flow.
 This structure will evolve as the collection grows.
 
